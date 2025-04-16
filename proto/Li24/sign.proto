@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package safeheron.proto.multi_party_ecdsa.Li24.sign;
+
+import "curve_point.proto";
+
+message Round0BCMessage {
+    safeheron.proto.CurvePoint GK = 1;
+}
+
+message Round0P2PMessage {
+    string w = 1;
+    string k = 2;
+    string phi = 3;
+}
+
+message Round1P2PMessage {
+    string delta = 1;
+    string v = 2;
+
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package safeheron.proto.multi_party_ecdsa.Li24.key_gen;
+
+import "commitment.proto";
+import "curve_point.proto";
+import "paillier.proto";
+import "zkp.proto";
+
+//BC message in round0
+message Round0BCMessage{
+    repeated safeheron.proto.CurvePoint vs = 1;
+}
+// P2P message in round 0
+message Round0P2PMessage {
+    string e_ij = 1;
+    string x_ij = 2;
+}
+
