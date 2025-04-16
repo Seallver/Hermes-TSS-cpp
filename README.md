@@ -1,3 +1,5 @@
+# 主要贡献于通信模型和前端模型
+
 # 说明
 
 - 本项目基于[multi-party-sig-cpp](https://github.com/Safeheron/multi-party-sig-cpp)编写.multi-party-sig-cpp实现了3种门限签名算法：GG18,GG20和CMP.详见[multi-party-sig-cpp_readme](./multi-party-sig-cpp/multi-party-sig-cpp_README.md).
